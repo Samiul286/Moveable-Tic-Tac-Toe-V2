@@ -31,6 +31,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is fully configured for Vercel deployment. See [DEPLOYMENT.md](./DEPLOYMENT.md) for complete instructions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Quick Deploy
+
+1. Push to GitHub/GitLab/Bitbucket
+2. Import to [Vercel](https://vercel.com/new)
+3. Add Firebase environment variables
+4. Deploy!
+
+Or use the Vercel CLI:
+```bash
+npm i -g vercel
+vercel login
+vercel --prod
+```
+
+Check out [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed setup instructions.
